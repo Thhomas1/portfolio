@@ -36,7 +36,7 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2">Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
-              Providing services for programming
+              Providing services for programming.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
