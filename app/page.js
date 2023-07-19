@@ -3,6 +3,10 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
+
 export default function Home() {
   return (
     <div>
@@ -45,6 +49,36 @@ export default function Home() {
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={deved} layout="fill" objectFit="cover" />
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Servicios que ofrecemo</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
+              dicta eius velit labore incidunt for
+              <span className="text-teal-500"> agencies </span>
+              consulted for <span className="text-teal-500"> startups </span>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
+              dicta eius velit labore incidunt
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
+              dicta eius velit labore incidunt for dicta eius velit labore
+              incidunt Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quas est dicta eius velit labore incidunt for dicta eius velit
+              labore incidunt
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image src={design} width={100} height={100} />
+              <h3>Disenos hermosos</h3>
+              <p>
+                Creating elegant desings suited for your needs to desings
+                theories that we can do it
+              </p>
+            </div>
           </div>
         </section>
       </main>
