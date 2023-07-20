@@ -6,6 +6,12 @@ import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
 
 export default function Home() {
   return (
@@ -29,7 +35,7 @@ export default function Home() {
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="#"
                 >
-                  Portfolio
+                  Resume
                 </a>
               </li>
             </ul>
@@ -67,17 +73,100 @@ export default function Home() {
               dicta eius velit labore incidunt for dicta eius velit labore
               incidunt Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Quas est dicta eius velit labore incidunt for dicta eius velit
-              labore incidunt
+              labore incidunttt
+            </p>
+          </div>
+          <div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Disenos hermosos
+              </h3>
+              <p className="py-2">
+                Creating elegant desings suited for your needs to desings
+                theories that we can do it
+              </p>
+              <h4 className="py-4 text-teal-600">
+                Tools i use for programming
+              </h4>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Typescript</p>
+              <p className="text-gray-800 py-1">Angular</p>
+              <p className="text-gray-800 py-1">NodeJS</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Disenos hermosos
+              </h3>
+              <p className="py-2">
+                Creating elegant desings suited for your needs to desings
+                theories that we can do it
+              </p>
+              <h4 className="py-4 text-teal-600">
+                Tools i use for programming
+              </h4>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Typescript</p>
+              <p className="text-gray-800 py-1">Angular</p>
+              <p className="text-gray-800 py-1">NodeJS</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={consulting} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Disenos hermosos
+              </h3>
+              <p className="py-2">
+                Creating elegant desings suited for your needs to desings
+                theories that we can do it
+              </p>
+              <h4 className="py-4 text-teal-600">
+                Tools i use for programming
+              </h4>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Typescript</p>
+              <p className="text-gray-800 py-1">Angular</p>
+              <p className="text-gray-800 py-1">NodeJS</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Portfolio</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
+              dicta eius velit labore incidunt for
+              <span className="text-teal-500"> agencies </span>
+              consulted for <span className="text-teal-500"> startups </span>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
+              dicta eius velit labore incidunt
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
+              dicta eius velit labore incidunt for dicta eius velit labore
+              incidunt Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quas est dicta eius velit labore incidunt for dicta eius velit
+              labore incidunttt
             </p>
           </div>
           <div>
             <div>
-              <Image src={design} width={100} height={100} />
-              <h3>Disenos hermosos</h3>
-              <p>
-                Creating elegant desings suited for your needs to desings
-                theories that we can do it
-              </p>
+              <Image src={web1} />
+            </div>
+            <div>
+              <Image src={web2} />
+            </div>
+            <div>
+              <Image src={web3} />
+            </div>
+            <div>
+              <Image src={web4} />
+            </div>
+            <div>
+              <Image src={web5} />
             </div>
           </div>
         </section>
@@ -85,4 +174,4 @@ export default function Home() {
     </div>
   );
 }
-// 30:22
+// 42:33
