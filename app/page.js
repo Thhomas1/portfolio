@@ -75,59 +75,63 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">
-              Servicios que ofrecemo
-            </h3>
+            <h3 className="text-3xl py-1 dark:text-white">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
-              dicta eius velit labore incidunt for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500"> startups </span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
-              dicta eius velit labore incidunt
+              Con más de tres años de experiencia en React, JavaScript y
+              TypeScript trabaje en diversos proyectos desafiantes que me han
+              permitido desarrollar un sólido entendimiento de las mejores
+              prácticas de desarrollo y una profunda comprensión de los
+              conceptos fundamentales de la programación. Mi experiencia en
+              <span className="text-red-600"> React </span>me ha permitido crear
+              aplicaciones web altamente interactivas y receptivas, brindando
+              una experiencia de usuario fluida y atractiva.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
-              dicta eius velit labore incidunt for dicta eius velit labore
-              incidunt Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Quas est dicta eius velit labore incidunt for dicta eius velit
-              labore incidunttt
+              Me siento muy cómodo trabajando con{" "}
+              <span className="text-red-600"> JavaScript y TypeScript</span>, lo
+              que me ha permitido desarrollar soluciones robustas y estar en
+              constante aprendizaje en sus actualizaciones. También me encanta
+              colaborar con equipos multidisciplinarios, comunicando ideas
+              técnicas de manera clara y sencilla.estoy constantemente buscando
+              oportunidades para seguir aprendiendo y creciendo. Siempre estoy
+              al tanto de las últimas tendencias y avances en el desarrollo de
+              software. Mi pasión por la programación combinada con mi
+              experiencia y habilidades me convierte en un candidato ideal para
+              unirme a su equipo en.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Tools</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Herramientas</h3>
               <p className="py-2">
-                Creating elegant desings suited for your needs to desings
-                theories that we can do it
+                Herramientas que me permiten desarrollar y superar desafíos con
+                creatividad y eficiencia
               </p>
-              <h4 className="py-4 text-teal-600">
-                Tools i use for programming
-              </h4>
+              <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">Typescript</p>
               <p className="text-gray-800 py-1">Angular</p>
               <p className="text-gray-800 py-1">NodeJS</p>
+              <p className="text-gray-800 py-1">-</p>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Typescript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Disenos hermosos
-              </h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Complementos</h3>
               <p className="py-2">
-                Creating elegant desings suited for your needs to desings
-                theories that we can do it
+                Librerias, Frameworks, entre otras cosas que me permiten
+                desarrollar mejor
               </p>
-              <h4 className="py-4 text-teal-600">
-                Tools i use for programming
-              </h4>
-              <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">Typescript</p>
-              <p className="text-gray-800 py-1">Angular</p>
-              <p className="text-gray-800 py-1">NodeJS</p>
+              <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
+              <p className="text-gray-800 py-1">NextJs</p>
+              <p className="text-gray-800 py-1">TaiwlindCSS</p>
+              <p className="text-gray-800 py-1">GSAP</p>
+              <p className="text-gray-800 py-1">BarbaJs</p>
+              <p className="text-gray-800 py-1">Sass</p>
+              <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">Postman</p>
+              <p className="text-gray-800 py-1">Express</p>
             </div>
           </div>
         </section>
