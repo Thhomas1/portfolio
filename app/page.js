@@ -210,7 +210,7 @@ export default function Home() {
               </p>
               <a
                 className="py-10 text-cyan-600"
-                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+                href="https://portfolio-vfht.vercel.app/"
               >
                 Link
               </a>
