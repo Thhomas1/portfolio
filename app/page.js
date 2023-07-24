@@ -175,7 +175,7 @@ export default function Home() {
                 Herramientas:
                 <span className="text-red-600">
                   {" "}
-                  ReactJs, GSAP, BarbaJs, CustomCSS{" "}
+                  ReactJs, MaterialUI, BarbaJs, CustomCSS{" "}
                 </span>
               </p>
               <a
@@ -239,7 +239,7 @@ export default function Home() {
                 </span>
               </p>
               <a
-                className="py-10 text-green-600"
+                className="py-10 text-teal-600"
                 href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
               >
                 Link
