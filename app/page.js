@@ -7,12 +7,10 @@ import Image from "next/image";
 import deved from "../public/prog.png";
 import design from "../public/complements.gif";
 import code from "../public/codecard.gif";
-import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
+import couch from "../public/couch.gif";
+import web1 from "../public/wolfbuilding.png";
+import web2 from "../public/iphonepage.png";
+import web3 from "../public/portafolio.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -43,10 +41,10 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="google.com"
+                  href="https://www.linkedin.com/in/thomas-romero-05a508245/overlay/1635518012066/single-media-viewer/?profileId=ACoAADzEAkYBjslLBOgDvxda5Bbki6DF_KPku2A"
+                  className="cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                 >
-                  Resume
+                  CV
                 </a>
               </li>
             </ul>
@@ -63,9 +61,15 @@ export default function Home() {
             </p>
           </div>
           <div className="cursor-pointer text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillLinkedin />
-            <AiFillYoutube />
-            <AiFillGithub />
+            <a href="https://www.linkedin.com/in/thomas-romero-05a508245/">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://www.youtube.com/@thomasromero5600/videos">
+              <AiFillYoutube />
+            </a>
+            <a href="https://github.com/Thhomas1">
+              <AiFillGithub />
+            </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
@@ -86,7 +90,7 @@ export default function Home() {
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Me siento muy cómodo trabajando con
-              <span className="text-red-600"> JavaScript y TypeScript</span>, lo
+              <span className="text-red-600"> JavaScript y TypeScript</span>; lo
               que me ha permitido desarrollar soluciones robustas y estar en
               constante aprendizaje en sus actualizaciones. También me encanta
               colaborar con equipos multidisciplinarios, comunicando ideas
@@ -95,11 +99,11 @@ export default function Home() {
               al tanto de las últimas tendencias y avances en el desarrollo de
               software. Mi pasión por la programación combinada con mi
               experiencia y habilidades me convierte en un candidato ideal para
-              unirme a su equipo en.
+              unirme a su equipo.
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-100">
               <Image src={code} width={150} height={150} />
               <h3 className="text-lg font-medium pt-8 pb-2">Herramientas</h3>
               <p className="py-2">
@@ -114,7 +118,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">Typescript</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-rose-300">
               <Image src={design} width={150} height={150} />
               <h3 className="text-lg font-medium pt-8 pb-2 mt-5">
                 Complementos
@@ -159,6 +163,26 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
+              <h3 className="text-2xl py-1 text-white-800 dark:text-white">
+                Wolf Building
+              </h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                En este trabajo, junto con un increible equipo, implementamos un
+                sitio web para un cliente potencial para la construccion.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                Herramientas:
+                <span className="text-red-600">
+                  {" "}
+                  ReactJs, GSAP, BarbaJs, CustomCSS{" "}
+                </span>
+              </p>
+              <a
+                className="py-10 text-amber-600"
+                href="https://www.thewolfbuilding.com.ar/"
+              >
+                Link
+              </a>
               <Image
                 src={web1}
                 className="rounded-lg object-cover"
@@ -168,7 +192,26 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h3 className="text-2xl py-1 dark:text-white">Apple Page</h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                En este trabajo, gracias a las tecnologias que nos brinda
+                javascript cree un sitio web estilo apple.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                Herramientas:
+                <span className="text-teal-600">
+                  {" "}
+                  Javascript, GSAP, BarbaJs, CustomCSS{" "}
+                </span>
+              </p>
+              <a
+                className="py-10 text-green-600"
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+              >
+                Link
+              </a>
               <Image
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
                 src={web2}
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -177,7 +220,26 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h3 className="text-2xl py-1 dark:text-white">Apple Page</h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                En este trabajo, gracias a las tecnologias que nos brinda
+                javascript cree un sitio web estilo apple.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                Herramientas:
+                <span className="text-cyan-500">
+                  {" "}
+                  Javascript, GSAP, BarbaJs, CustomCSS{" "}
+                </span>
+              </p>
+              <a
+                className="py-10 text-cyan-600"
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+              >
+                Link
+              </a>
               <Image
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
                 src={web3}
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -185,23 +247,8 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web4}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web5}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+            <div className="relative mx-auto  w-250 h-250 mt-20  md:h-96 md:w-96">
+              <Image src={couch} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
