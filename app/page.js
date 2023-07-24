@@ -5,8 +5,8 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/prog.png";
-import design from "../public/design.png";
-import code from "../public/code.png";
+import design from "../public/complements.gif";
+import code from "../public/codecard.gif";
 import consulting from "../public/consulting.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
@@ -63,9 +63,7 @@ export default function Home() {
             </p>
           </div>
           <div className="cursor-pointer text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <p href="google.com">
-              <AiFillLinkedin href="google.com" />
-            </p>
+            <AiFillLinkedin />
             <AiFillYoutube />
             <AiFillGithub />
           </div>
@@ -87,7 +85,7 @@ export default function Home() {
               una experiencia de usuario fluida y atractiva.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Me siento muy cómodo trabajando con{" "}
+              Me siento muy cómodo trabajando con
               <span className="text-red-600"> JavaScript y TypeScript</span>, lo
               que me ha permitido desarrollar soluciones robustas y estar en
               constante aprendizaje en sus actualizaciones. También me encanta
@@ -102,7 +100,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={150} height={150} />
               <h3 className="text-lg font-medium pt-8 pb-2">Herramientas</h3>
               <p className="py-2">
                 Herramientas que me permiten desarrollar y superar desafíos con
@@ -117,10 +115,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Typescript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Complementos</h3>
+              <Image src={design} width={150} height={150} />
+              <h3 className="text-lg font-medium pt-8 pb-2 mt-5">
+                Complementos
+              </h3>
               <p className="py-2">
-                Librerias, Frameworks, entre otras cosas que me permiten
+                Frameworks,Librerias, entre otras herramientas que me permiten
                 desarrollar mejor
               </p>
               <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
@@ -131,7 +131,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Sass</p>
               <p className="text-gray-800 py-1">MongoDB</p>
               <p className="text-gray-800 py-1">Postman</p>
-              <p className="text-gray-800 py-1">Express</p>
             </div>
           </div>
         </section>
@@ -139,19 +138,23 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
-              dicta eius velit labore incidunt for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500"> startups </span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
-              dicta eius velit labore incidunt
+              He tenido el privilegio de trabajar en diversos proyectos que me
+              han permitido crecer como desarrollador y expresar mi pasión por
+              la creación de soluciones innovadoras. A continuación, encontrarás
+              una selección de algunos de mis trabajos públicos, donde pude
+              aplicar mis habilidades en
+              <span className="text-red-600">
+                {" "}
+                React, JavaScript, TypeScript{" "}
+              </span>
+              y otras tecnologías para ofrecer experiencias de usuario
+              excepcionales.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas est
-              dicta eius velit labore incidunt for dicta eius velit labore
-              incidunt Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Quas est dicta eius velit labore incidunt for dicta eius velit
-              labore incidunttt
+              Quiero destacar que, como parte de mi compromiso con la privacidad
+              y la confidencialidad, solo presento proyectos públicos en este
+              portfolio. Los proyectos privados que he realizado están
+              destinados a preservar la privacidad.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -202,6 +205,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer className="text-left text-slate-600 text-sm	 ">
+          2023 - Thomas Romero
+        </footer>
       </main>
     </div>
   );
