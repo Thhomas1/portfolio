@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="./favicon.ico"></link>
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-zinc-50 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons dark:text-white">
@@ -42,7 +42,7 @@ export default function Home() {
               <li>
                 <a
                   href="https://www.linkedin.com/in/thomas-romero-05a508245/overlay/1635518012066/single-media-viewer/?profileId=ACoAADzEAkYBjslLBOgDvxda5Bbki6DF_KPku2A"
-                  className="cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  className="cursor-pointer bg-gradient-to-r from-cyan-400 to-red-400 text-white px-4 py-2 rounded-md ml-8"
                 >
                   CV
                 </a>
@@ -142,9 +142,9 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              He tenido el privilegio de trabajar en diversos proyectos que me
-              han permitido crecer como desarrollador y expresar mi pasión por
-              la creación de soluciones innovadoras. A continuación, encontrarás
+              Tuve el privilegio de trabajar en diversos proyectos que me han
+              permitido crecer como desarrollador y expresar mi pasión por la
+              creación de soluciones innovadoras. A continuación, encontrarás
               una selección de algunos de mis trabajos públicos, donde pude
               aplicar mis habilidades en
               <span className="text-red-600">
@@ -161,14 +161,15 @@ export default function Home() {
               destinados a preservar la privacidad.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 text-white-800 dark:text-white">
+          <div className="flex flex-col gap-10 py-10 mt-20 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/2 flex-1">
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white">
                 Wolf Building
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo, junto con un increible equipo, implementamos un
-                sitio web para un cliente potencial para la construccion.
+                En este trabajo, junto a un increible equipo de desarrollo,
+                implementamos un sitio web para un cliente potencial para la
+                construccion.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
@@ -192,7 +193,40 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 dark:text-white">Apple Page</h3>
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white">
+                Portfolio
+              </h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                En este trabajo, nuevamente gracias a las tecnologias de hoy en
+                dia cree un sitio web para mostrar mis trabajos y progresos en
+                el rubro..
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                Herramientas:
+                <span className="text-cyan-500">
+                  {" "}
+                  NextJs, Javascript, TaiwlindCSS, CustomCSS{" "}
+                </span>
+              </p>
+              <a
+                className="py-10 text-cyan-600"
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+              >
+                Link
+              </a>
+              <Image
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+                src={web3}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white">
+                Apple Page
+              </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 En este trabajo, gracias a las tecnologias que nos brinda
                 javascript cree un sitio web estilo apple.
@@ -219,37 +253,9 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 dark:text-white">Apple Page</h3>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo, gracias a las tecnologias que nos brinda
-                javascript cree un sitio web estilo apple.
-              </p>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas:
-                <span className="text-cyan-500">
-                  {" "}
-                  Javascript, GSAP, BarbaJs, CustomCSS{" "}
-                </span>
-              </p>
-              <a
-                className="py-10 text-cyan-600"
-                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
-              >
-                Link
-              </a>
-              <Image
-                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
-                src={web3}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="relative mx-auto  w-250 h-250 mt-20  md:h-96 md:w-96">
-              <Image src={couch} layout="fill" objectFit="cover" />
-            </div>
+          </div>
+          <div className="relative mx-auto  w-100 h-100 mt-20  md:h-96 md:w-96">
+            <Image src={couch} layout="fill" objectFit="cover" />
           </div>
         </section>
         <footer className="text-left text-slate-600 text-sm	 ">
@@ -259,4 +265,5 @@ export default function Home() {
     </div>
   );
 }
-// 44:15
+// Finished
+// Thomas Romero
