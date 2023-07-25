@@ -12,6 +12,7 @@ import web1 from "../public/wolfbuilding.png";
 import web2 from "../public/iphonepage.png";
 import web3 from "../public/portafolio.png";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -40,12 +41,12 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/thomas-romero-05a508245/overlay/1635518012066/single-media-viewer/?profileId=ACoAADzEAkYBjslLBOgDvxda5Bbki6DF_KPku2A"
+                <Link
+                  href="/ThomasRomeroCV.pdf"
                   className="cursor-pointer bg-gradient-to-r from-cyan-400 to-red-400 text-white px-4 py-2 rounded-md ml-8"
                 >
                   CV
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
