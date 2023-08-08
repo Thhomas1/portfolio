@@ -131,7 +131,7 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
               <p className="text-gray-800 py-1">NextJs</p>
-              <p className="text-gray-800 py-1">TaiwlindCSS</p>
+              <p className="text-gray-800 py-1">TailwindCSS</p>
               <p className="text-gray-800 py-1">GSAP</p>
               <p className="text-gray-800 py-1">BarbaJs</p>
               <p className="text-gray-800 py-1">Sass</p>
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 mt-20 lg:flex-row lg:flex-wrap">
             <div className="basis-1/2 flex-1">
-              <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
+              <h3 className="text-2xl py-1 text-orange-500 dark:text-white font-bold">
                 Wolf Building
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
@@ -230,7 +230,7 @@ export default function Home() {
                 Herramientas:
                 <span className="text-cyan-500">
                   {" "}
-                  NextJs, Typescript, TaiwlindCSS{" "}
+                  NextJs, Typescript, TailwindCSS{" "}
                 </span>
               </p>
               <a
@@ -261,7 +261,7 @@ export default function Home() {
                 Herramientas:
                 <span className="text-cyan-500">
                   {" "}
-                  NextJs, Javascript, TaiwlindCSS, CustomCSS{" "}
+                  NextJs, Javascript, TailwindCSS, CustomCSS{" "}
                 </span>
               </p>
               <a
