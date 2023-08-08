@@ -11,6 +11,7 @@ import couch from "../public/couch.gif";
 import web1 from "../public/wolfbuilding.png";
 import web2 from "../public/iphonepage.png";
 import web3 from "../public/portafolio.png";
+import web4 from "../public/pizzeli.png";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -78,7 +79,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">About me</h3>
+            <h3 className="text-4xl py-1 dark:text-white">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Con más de tres años de experiencia en React, JavaScript y
               TypeScript trabaje en diversos proyectos desafiantes que me han
@@ -141,7 +142,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+            <h3 className="text-4xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Tuve el privilegio de trabajar en diversos proyectos que me han
               permitido crecer como desarrollador y expresar mi pasión por la
@@ -155,16 +156,10 @@ export default function Home() {
               y otras tecnologías para ofrecer experiencias de usuario
               excepcionales.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Quiero destacar que, como parte de mi compromiso con la privacidad
-              y la confidencialidad, solo presento proyectos públicos en este
-              portfolio. Los proyectos privados que he realizado están
-              destinados a preservar la privacidad.
-            </p>
           </div>
           <div className="flex flex-col gap-10 py-10 mt-20 lg:flex-row lg:flex-wrap">
             <div className="basis-1/2 flex-1">
-              <h3 className="text-2xl py-1 text-teal-950 dark:text-white">
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
                 Wolf Building
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
@@ -194,7 +189,67 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 text-teal-950 dark:text-white">
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
+                Apple Page
+              </h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                En este trabajo, gracias a las tecnologias que nos brinda
+                javascript cree un sitio web estilo apple.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                Herramientas:
+                <span className="text-teal-600">
+                  {" "}
+                  Javascript, GSAP, BarbaJs, CustomCSS{" "}
+                </span>
+              </p>
+              <a
+                className="py-10 text-teal-600"
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+              >
+                Link
+              </a>
+              <Image
+                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
+                src={web2}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
+                Pizzeli
+              </h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                En este trabajo cree una front-page para una futuro cliente
+                potencial
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                Herramientas:
+                <span className="text-cyan-500">
+                  {" "}
+                  NextJs, Typescript, TaiwlindCSS{" "}
+                </span>
+              </p>
+              <a
+                className="py-10 text-cyan-600"
+                href="https://pitzeli.vercel.app/"
+              >
+                Link
+              </a>
+              <Image
+                href=""
+                src={web4}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
                 Portfolio
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
@@ -224,36 +279,8 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 text-teal-950 dark:text-white">
-                Apple Page
-              </h3>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo, gracias a las tecnologias que nos brinda
-                javascript cree un sitio web estilo apple.
-              </p>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas:
-                <span className="text-teal-600">
-                  {" "}
-                  Javascript, GSAP, BarbaJs, CustomCSS{" "}
-                </span>
-              </p>
-              <a
-                className="py-10 text-teal-600"
-                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
-              >
-                Link
-              </a>
-              <Image
-                href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
-                src={web2}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
+
+            {/* Seguir aca */}
           </div>
           <div className="relative mx-auto  w-100 h-100 mt-20  md:h-96 md:w-96">
             <Image src={couch} layout="fill" objectFit="cover" />
