@@ -81,33 +81,29 @@ export default function Home() {
           <div>
             <h3 className="text-4xl py-1 dark:text-white">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Con más de tres años de experiencia en React, JavaScript y
-              TypeScript trabaje en diversos proyectos desafiantes que me han
-              permitido desarrollar un sólido entendimiento de las mejores
-              prácticas de desarrollo y una profunda comprensión de los
-              conceptos fundamentales de la programación. Mi experiencia en
-              <span className="text-red-600"> React </span>me ha permitido crear
+              Con más de tres años de experiencia en React, JavaScript y TypeScript,
+              he trabajado en proyectos desafiantes que me brindaron un sólido
+              entendimiento de las mejores prácticas de desarrollo y una profunda
+              comprensión de los conceptos fundamentales de la programación.
+              Mi experiencia en<span className="text-red-500 font-bold	"> React </span>me ha permitido crear
               aplicaciones web altamente interactivas y receptivas, brindando
               una experiencia de usuario fluida y atractiva.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Me siento muy cómodo trabajando con
-              <span className="text-red-600"> JavaScript y TypeScript</span>; lo
+              <span className="text-amber-600 font-bold	"> JavaScript </span> y
+              <span className="text-blue-700 font-bold	"> TypeScript </span>; lo
               que me ha permitido desarrollar soluciones robustas y estar en
-              constante aprendizaje en sus actualizaciones. También me encanta
-              colaborar con equipos multidisciplinarios, comunicando ideas
-              técnicas de manera clara y sencilla.estoy constantemente buscando
-              oportunidades para seguir aprendiendo y creciendo. Siempre estoy
-              al tanto de las últimas tendencias y avances en el desarrollo de
-              software. Mi pasión por la programación combinada con mi
-              experiencia y habilidades me convierte en un candidato ideal para
-              unirme a su equipo.
+              constante aprendizaje en sus actualizaciones.
+              Disfruto colaborar en equipos multidisciplinarios,
+              comunicando ideas técnicas de manera clara, buscando constantemente oportunidades 
+              para seguir aprendiendo.
             </p>
+           
+            
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-100">
               <Image src={code} width={150} height={150} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Herramientas</h3>
+              <h3 className="text-lg font-semibold pt-8 pb-2">Herramientas</h3>
               <p className="py-2">
                 Herramientas que me permiten desarrollar y superar desafíos con
                 creatividad y eficiencia
@@ -116,18 +112,20 @@ export default function Home() {
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Angular</p>
               <p className="text-gray-800 py-1">NodeJS</p>
+              <p className="text-gray-800 py-1">MySQL</p>
               <p className="text-gray-800 py-1">-</p>
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">Typescript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-rose-300">
               <Image src={design} width={150} height={150} />
-              <h3 className="text-lg font-medium pt-8 pb-2 mt-5">
+              <h3 className="text-lg font-semibold pt-8 pb-2 mt-5">
                 Complementos
               </h3>
               <p className="py-2">
-                Frameworks,Librerias, entre otras herramientas que me permiten
-                desarrollar mejor
+                Frameworks y otras herramientas que me permiten 
+                ahorrar tiempo de desarrollo
+        
               </p>
               <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
               <p className="text-gray-800 py-1">NextJs</p>
@@ -142,14 +140,14 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl py-1 dark:text-white">Portfolio</h3>
+            <h3 className="text-4xl py-1 dark:text-white">Proyectos</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Tuve el privilegio de trabajar en diversos proyectos que me han
               permitido crecer como desarrollador y expresar mi pasión por la
               creación de soluciones innovadoras. A continuación, encontrarás
               una selección de algunos de mis trabajos públicos, donde pude
               aplicar mis habilidades en
-              <span className="text-red-600">
+              <span className="text-red-600 font-bold">
                 {" "}
                 React, JavaScript, TypeScript{" "}
               </span>
@@ -157,7 +155,7 @@ export default function Home() {
               excepcionales.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 mt-20 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 mt-20 lg:flex-row lg:flex-wrap">
             <div className="basis-1/2 flex-1">
               <h3 className="text-2xl py-1 text-orange-500 dark:text-white font-bold">
                 Wolf Building
@@ -169,7 +167,7 @@ export default function Home() {
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
-                <span className="text-red-600">
+                <span className="text-orange-600 font-semibold">
                   {" "}
                   ReactJs, MaterialUI, BarbaJs, CustomCSS{" "}
                 </span>
@@ -198,7 +196,7 @@ export default function Home() {
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
-                <span className="text-teal-600">
+                <span className="text-teal-600 font-semibold">
                   {" "}
                   Javascript, GSAP, BarbaJs, CustomCSS{" "}
                 </span>
@@ -219,7 +217,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
+              <h3 className="text-2xl py-1 text-red-600 dark:text-white font-bold">
                 Pizzeli
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
@@ -228,7 +226,7 @@ export default function Home() {
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
-                <span className="text-cyan-500">
+                <span className="text-cyan-500 font-semibold">
                   {" "}
                   NextJs, Typescript, TailwindCSS{" "}
                 </span>
@@ -259,7 +257,7 @@ export default function Home() {
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
-                <span className="text-cyan-500">
+                <span className="text-cyan-500 font-semibold">
                   {" "}
                   NextJs, Javascript, TailwindCSS, CustomCSS{" "}
                 </span>
