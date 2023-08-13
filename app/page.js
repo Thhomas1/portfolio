@@ -1,8 +1,10 @@
 "use client";
 
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillYoutube, AiFillGithub, AiOutlineBook } from "react-icons/ai";
+import { FaCloudMoonRain } from "react-icons/fa";
+import UseAnimations from "react-useanimations";
+import arrowDown from 'react-useanimations/lib/arrowDown';
 import Image from "next/image";
 import deved from "../public/prog.png";
 import design from "../public/complements.gif";
@@ -28,25 +30,22 @@ export default function Home() {
         <link rel="icon" href="./favicon.ico"></link>
       </Head>
 
-      <main className="bg-zinc-50 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-sky-50 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons dark:text-white">
-              Thomas Romero
-            </h1>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
+          <nav className="py-5 mb-12  flex justify-between">
+            <ul className="flex items-center  md:text-xl dark:text-white">
+              <li className=" flex cursor-pointer">
+                <FaCloudMoonRain
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pinter text-2xl"
+                  className="cursor-pinter text-3xl"
                 />
               </li>
               <li>
                 <Link
                   href="/ThomasRomeroCV.pdf"
-                  className="cursor-pointer bg-gradient-to-r from-cyan-400 to-red-400 text-white px-4 py-2 rounded-md ml-8"
+                  className=" flex cursor-pointer text-3xl py-2 ml-8"
                 >
-                  CV
+                <AiOutlineBook/>
                 </Link>
               </li>
             </ul>
@@ -58,11 +57,11 @@ export default function Home() {
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
               Developer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
-              Providing services for programming.
+            <p className="text-md pt-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
+              <span className="text-teal-400 font-bold	">+4</span> años de experiencia en el mundo del desarrollo
             </p>
           </div>
-          <div className="cursor-pointer text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          <div className="cursor-pointer text-4xl flex justify-center gap-12 text-gray-600">
             <a href="https://www.linkedin.com/in/thomas-romero-05a508245/">
               <AiFillLinkedin />
             </a>
@@ -73,16 +72,19 @@ export default function Home() {
               <AiFillGithub />
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="flex flex-row-reverse sm:invisible">
+             <UseAnimations className="" animation={arrowDown} size={56} />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-85 md:w-85">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
         <section>
-          <div>
+          <div className=" flex flex-row">
+          <div className="basis-1/2">
             <h3 className="text-4xl py-1 dark:text-white">About me</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Con más de tres años de experiencia en React, JavaScript y TypeScript,
-              he trabajado en proyectos desafiantes que me brindaron un sólido
+            <p className="justify-self-center	 text-md py-2 leading-8 text-gray-800 dark:text-white">
+              Trabaje en proyectos desafiantes que me brindaron un sólido
               entendimiento de las mejores prácticas de desarrollo y una profunda
               comprensión de los conceptos fundamentales de la programación.
               Mi experiencia en<span className="text-red-500 font-bold	"> React </span>me ha permitido crear
@@ -97,12 +99,17 @@ export default function Home() {
               comunicando ideas técnicas de manera clara, buscando constantemente oportunidades 
               para seguir aprendiendo.
             </p>
-           
-            
           </div>
+          <div className="basis-1/2">
+            <div className="relative mx-auto w-100 h-100  md:h-96 md:w-96">
+            <Image src={code} objectFit="cover" width={500} />
+          </div>
+          </div>
+          </div>
+
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-100">
-              <Image src={code} width={150} height={150} />
+              <Image src={couch} width={150} height={150} />
               <h3 className="text-lg font-semibold pt-8 pb-2">Herramientas</h3>
               <p className="py-2">
                 Herramientas que me permiten desarrollar y superar desafíos con
@@ -280,9 +287,7 @@ export default function Home() {
 
             {/* Seguir aca */}
           </div>
-          <div className="relative mx-auto  w-100 h-100 mt-20  md:h-96 md:w-96">
-            <Image src={couch} layout="fill" objectFit="cover" />
-          </div>
+          
         </section>
         <footer className="text-left text-slate-600 text-sm	 ">
           2023 - Thomas Romero
