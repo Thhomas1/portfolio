@@ -1,8 +1,8 @@
 "use client";
 
 import Head from "next/head";
-import { AiFillLinkedin, AiFillYoutube, AiFillGithub, AiOutlineBook } from "react-icons/ai";
-import { FaCloudMoonRain } from "react-icons/fa";
+import { AiFillLinkedin, AiFillYoutube, AiFillGithub, AiOutlineBook, AiOutlineLink } from "react-icons/ai";
+import {FaCloudMoonRain, FaReact } from "react-icons/fa";
 import UseAnimations from "react-useanimations";
 import arrowDown from 'react-useanimations/lib/arrowDown';
 import Image from "next/image";
@@ -72,36 +72,36 @@ export default function Home() {
               <AiFillGithub />
             </a>
           </div>
-          <div className="flex flex-row-reverse sm:invisible">
-             <UseAnimations className="" animation={arrowDown} size={56} />
+          <div className="flex flex-row-reverse dark:text-white">
+             <UseAnimations className="dark:text-white" animation={arrowDown} size={56} />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-85 md:w-85">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
         <section>
-          <div className=" flex flex-row">
-          <div className="basis-1/2">
+          <div className=" flex flex-wrap md:flex-row">
+          <div className=" lg:basis-1/2">
             <h3 className="text-4xl py-1 dark:text-white">About me</h3>
             <p className="justify-self-center	 text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Trabaje en proyectos desafiantes que me brindaron un sólido
-              entendimiento de las mejores prácticas de desarrollo y una profunda
-              comprensión de los conceptos fundamentales de la programación.
-              Mi experiencia en<span className="text-red-500 font-bold	"> React </span>me ha permitido crear
-              aplicaciones web altamente interactivas y receptivas, brindando
-              una experiencia de usuario fluida y atractiva.
-              Me siento muy cómodo trabajando con
+              Me considero una persona altamente organizada y proactiva,
+              con una habilidad para colaborar efectivamente en entornos diversos.
+              Disfruto especialmente trabajando en equipos multidisciplinarios,
+              donde puedo articular ideas técnicas de manera concisa y por sobre todo poder aprender de otros desarrolladores
+              </p>
+              <p className="justify-self-center	 text-md py-2 leading-8 text-gray-800 dark:text-white">
+              Mi experiencia en
               <span className="text-amber-600 font-bold	"> JavaScript </span> y
-              <span className="text-blue-700 font-bold	"> TypeScript </span>; lo
-              que me ha permitido desarrollar soluciones robustas y estar en
+              <span className="text-blue-700 font-bold	"> TypeScript </span>
+              me ha permitido desarrollar soluciones robustas y estar en
               constante aprendizaje en sus actualizaciones.
               Disfruto colaborar en equipos multidisciplinarios,
               comunicando ideas técnicas de manera clara, buscando constantemente oportunidades 
               para seguir aprendiendo.
             </p>
           </div>
-          <div className="basis-1/2">
-            <div className="relative mx-auto w-100 h-100  md:h-96 md:w-96">
+          <div className="overflow:hidden md:basis-1/2 lg:basis-1/2">
+            <div className="overflow relative mx-auto w-100 h-100  md:h-96 md:w-96 lg:mr-4">
             <Image src={code} objectFit="cover" width={500} />
           </div>
           </div>
@@ -148,19 +148,6 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-4xl py-1 dark:text-white">Proyectos</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Tuve el privilegio de trabajar en diversos proyectos que me han
-              permitido crecer como desarrollador y expresar mi pasión por la
-              creación de soluciones innovadoras. A continuación, encontrarás
-              una selección de algunos de mis trabajos públicos, donde pude
-              aplicar mis habilidades en
-              <span className="text-red-600 font-bold">
-                {" "}
-                React, JavaScript, TypeScript{" "}
-              </span>
-              y otras tecnologías para ofrecer experiencias de usuario
-              excepcionales.
-            </p>
           </div>
           <div className="flex flex-col gap-10 mt-20 lg:flex-row lg:flex-wrap">
             <div className="basis-1/2 flex-1">
@@ -168,22 +155,20 @@ export default function Home() {
                 Wolf Building
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo, junto a un increible equipo de desarrollo,
-                implementamos un sitio web para un cliente potencial para la
-                construccion.
+                Junto a un increible equipo creamos un sitio web para un cliente potencial de la construccion.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas:
+                Herramientas: 
                 <span className="text-orange-600 font-semibold">
                   {" "}
                   ReactJs, MaterialUI, BarbaJs, CustomCSS{" "}
                 </span>
               </p>
               <a
-                className="py-10 text-amber-600"
+                className="text-amber-600 text-xl py-2 lg:flex justify-center"
                 href="https://www.thewolfbuilding.com.ar/"
               >
-                Link
+                <AiOutlineLink />
               </a>
               <Image
                 src={web1}
@@ -198,8 +183,7 @@ export default function Home() {
                 Apple Page
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo, gracias a las tecnologias que nos brinda
-                javascript cree un sitio web estilo apple.
+                Sitio web estilo apple page front-page.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
@@ -209,10 +193,10 @@ export default function Home() {
                 </span>
               </p>
               <a
-                className="py-10 text-teal-600"
+                className=" text-teal-600 text-xl py-2 lg:flex justify-center"
                 href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
               >
-                Link
+                <AiOutlineLink />
               </a>
               <Image
                 href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
@@ -224,25 +208,25 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 text-red-600 dark:text-white font-bold">
-                Pizzeli
+              <h3 className="text-2xl py-1 text-red-600 dark:text-white font-bold lg:flex-wrap">
+                Pizzeli 
+                
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo cree una front-page para una futuro cliente
-                potencial
+                Front-page para un cliente potencial.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
-                <span className="text-cyan-500 font-semibold">
+                <span className="text-red-500 font-semibold">
                   {" "}
                   NextJs, Typescript, TailwindCSS{" "}
                 </span>
               </p>
               <a
-                className="py-10 text-cyan-600"
+                className="text-xl py-2 text-red-600 lg:flex justify-center"
                 href="https://pitzeli.vercel.app/"
               >
-                Link
+                <AiOutlineLink />
               </a>
               <Image
                 href=""
@@ -258,9 +242,8 @@ export default function Home() {
                 Portfolio
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                En este trabajo, nuevamente gracias a las tecnologias de hoy en
-                dia cree un sitio web para mostrar mis trabajos y progresos en
-                el rubro..
+                Gracias a las tecnologias de hoy en dia cree un sitio web para mostrar
+                mis trabajos y progresos en el rubro.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
@@ -270,10 +253,10 @@ export default function Home() {
                 </span>
               </p>
               <a
-                className="py-10 text-cyan-600"
+                className=" text-xl py-2 text-cyan-600 lg:flex justify-center"
                 href="https://portfolio-vfht.vercel.app/"
               >
-                Link
+                <AiOutlineLink />
               </a>
               <Image
                 href="https://apple-page-i9sw4pc8c-thhomas1.vercel.app/?vercelToolbarCode=yQJUbqXqqTPFFhK"
