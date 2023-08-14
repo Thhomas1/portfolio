@@ -33,9 +33,9 @@ export default function Home() {
       <main className="bg-sky-50 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-5 mb-12  flex justify-between">
-            <ul className="flex items-center  md:text-xl dark:text-white">
+            <ul className="text-cyan-900 flex items-center  md:text-xl dark:text-red-400">
               <li className=" flex cursor-pointer">
-                <FaCloudMoonRain
+                <FaCloudMoonRain clas
                   onClick={() => setDarkMode(!darkMode)}
                   className="cursor-pinter text-3xl"
                 />
@@ -51,14 +51,14 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+            <h2 className="text-5xl py-2 text-cyan-900 font-medium md:text-6xl dark:text-red-400">
               Thomas Romero
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
               Developer
             </h3>
             <p className="text-md pt-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
-              <span className="text-teal-400 font-bold	">+4</span> años de experiencia en el mundo del desarrollo
+              <span className="text-cyan-600 font-bold dark:text-red-400	">+4</span> años de experiencia en el mundo del desarrollo
             </p>
           </div>
           <div className="cursor-pointer text-4xl flex justify-center gap-12 text-gray-600">
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="flex flex-row-reverse dark:text-white">
              <UseAnimations className="dark:text-white" animation={arrowDown} size={56} />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-85 md:w-85">
+          <div className="relative mx-auto bg-gradient-to-b from-blue-200 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-85 md:w-85 dark:from-red-300">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
@@ -91,8 +91,8 @@ export default function Home() {
               </p>
               <p className="justify-self-center	 text-md py-2 leading-8 text-gray-800 dark:text-white">
               Mi experiencia en
-              <span className="text-amber-600 font-bold	"> JavaScript </span> y
-              <span className="text-blue-700 font-bold	"> TypeScript </span>
+              <span className="text-amber-400 font-bold	"> JavaScript </span> y
+              <span className="text-cyan-300 font-bold	"> TypeScript </span>
               me ha permitido desarrollar soluciones robustas y estar en
               constante aprendizaje en sus actualizaciones.
               Disfruto colaborar en equipos multidisciplinarios,
@@ -242,8 +242,7 @@ export default function Home() {
                 Portfolio
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Gracias a las tecnologias de hoy en dia cree un sitio web para mostrar
-                mis trabajos y progresos en el rubro.
+                Sitio web para mostrar mis trabajos y progresos en el rubro.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
@@ -272,12 +271,15 @@ export default function Home() {
           </div>
           
         </section>
-        <footer className="text-left text-slate-600 text-sm	 ">
-          2023 - Thomas Romero
+        <footer className="mt-5 flex-col text-center text-sky-600 text-sm lg:flex lg:justify-center border-t-2 border-dashed">
+          <div className='text-sky-500 p-10  footer__container'>
+          { `Thomas Romero © ${new Date().getFullYear()}` }
+          
+        </div>
         </footer>
       </main>
     </div>
-  );
+  );    
 }
 // Finished
 // Thomas Romero
