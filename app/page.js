@@ -147,10 +147,10 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl py-1 dark:text-white">Proyectos</h3>
+            <h3 className="text-5xl py-1 dark:text-white">Proyectos</h3>
           </div>
-          <div className="flex flex-col gap-10 mt-20 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/2 flex-1">
+          <div className=" flex flex-col gap-10 mt-20 lg:flex-row lg:flex-wrap lg:m-10">
+            <div className="basis-1/3 flex-1 mar">
               <h3 className="text-2xl py-1 text-orange-500 dark:text-white font-bold">
                 Wolf Building
               </h3>
@@ -207,8 +207,9 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
+            
             <div className="basis-1/3 flex-1">
-              <h3 className="text-2xl py-1 text-red-600 dark:text-white font-bold lg:flex-wrap">
+              <h3 className="text-2xl py-1 text-red-600 dark:text-white font-bold ">
                 Pizzeli 
                 
               </h3>
