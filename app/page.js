@@ -100,31 +100,51 @@ export default function Home() {
               para seguir aprendiendo.
             </p>
           </div>
+          {/* Poner aca la experiencia y agarrar el tailwind de la otra pagina */}
           <div className="overflow:hidden md:basis-1/2 lg:basis-1/2">
             <div className="overflow relative mx-auto w-100 h-100  md:h-96 md:w-96 lg:mr-4">
             <Image src={code} objectFit="cover" width={500} />
           </div>
           </div>
           </div>
+          <div className='relative my-10 grid grid-cols-[30px_1fr] gap-4'>
+            
+      <div className='flex flex-col items-center gap-2'>
+        <div className='rounded-full bg-primary-50 p-1' />
+        <div className='h-full w-0 border border-primary-50' />
+      </div>
+      <div className='flex flex-col gap-2'>
+        <h2 className='text-xl font-bold text-orange-300'></h2>
+        <span className='text-sm text-orange-200'></span>
+        <span className='realtive right-0 text-orange-200 md:absolute'>
+          
+        </span>
+
+       
+      </div>
+      </div>
+
+
 
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-100">
+            <div className="bg-teal-50  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-red-400 dark:text-white">
               <Image src={couch} width={150} height={150} />
               <h3 className="text-lg font-semibold pt-8 pb-2">Herramientas</h3>
               <p className="py-2">
                 Herramientas que me permiten desarrollar y superar desafíos con
                 creatividad y eficiencia
               </p>
-              <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
-              <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Angular</p>
-              <p className="text-gray-800 py-1">NodeJS</p>
-              <p className="text-gray-800 py-1">MySQL</p>
-              <p className="text-gray-800 py-1">-</p>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">Typescript</p>
+              <h4 className="py-4 text-teal-600 font-semibold">Herramientas que uso :)</h4>
+
+              <p className="text-gray-800 py-1 dark:text-white">React</p>
+              <p className="text-gray-800 py-1 dark:text-white">Angular</p>
+              <p className="text-gray-800 py-1 dark:text-white">NodeJS</p>
+              <p className="text-gray-800 py-1 dark:text-white">MySQL</p>
+              <p className="text-gray-800 py-1 dark:text-white">-</p>
+              <p className="text-gray-800 py-1 dark:text-white">Javascript</p>
+              <p className="text-gray-800 py-1 dark:text-white">Typescript</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-rose-300">
+            <div className=" bg-teal-50  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white-300">
               <Image src={design} width={150} height={150} />
               <h3 className="text-lg font-semibold pt-8 pb-2 mt-5">
                 Complementos
@@ -134,7 +154,7 @@ export default function Home() {
                 ahorrar tiempo de desarrollo
         
               </p>
-              <h4 className="py-4 text-teal-600">Herramientas que uso :)</h4>
+              <h4 className="py-4 text-teal-600 font-semibold">Herramientas que uso :)</h4>
               <p className="text-gray-800 py-1">NextJs</p>
               <p className="text-gray-800 py-1">TailwindCSS</p>
               <p className="text-gray-800 py-1">GSAP</p>
