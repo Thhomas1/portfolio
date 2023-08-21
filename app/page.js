@@ -123,12 +123,12 @@ export default function Home() {
           <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>Startnet</h3>
           <span className='text-sm text-cyan-700 dark:text-red-200'> Agosto 2022 - Actualidad</span>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
-              La primera empresa que me brindó la oportunidad de ingresar al mundo laboral.
+              La empresa que me brindó la oportunidad de ingresar al mundo laboral.
               En este primer paso crucial de mi carrera, tengo el privilegio de trabajar
               junto a un equipo excepcional y aprender de ellos constantemente
-              y aplicar mis habilidades técnicas en situaciones reales. 
+              para aplicar mis habilidades técnicas en situaciones reales. 
               Esta experiencia marcó el inicio de mi trayectoria 
-              y me permitió adquirir valiosos conocimientos prácticos.</p>
+              y me permite adquirir valiosos conocimientos prácticos.</p>
         </div>
         </div>
         <div className="flex items-start w-150 h-100">
@@ -146,15 +146,10 @@ export default function Home() {
           <span className='text-sm text-cyan-700 dark:text-red-200'> Marzo 2022 - Agosto 2022</span>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
             Con un grupo de amigos desarrollamos un sitio web para una constructora de Quilmes.
-            Utilizamos React, Javascript y MaterialUI.
-            La calidad y la sinergia de este grupo son evidentes en cada proyecto que
-            abordamos. La combinación de habilidades, creatividad y dedicación en nuestro
+            La combinación de habilidades y dedicación en nuestro
             equipo potenció nuestra capacidad para superar desafíos y alcanzar resultados
-            sobresalientes de manera consistente.</p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
-            La combinación de habilidades, creatividad y dedicación en nuestro
-            equipo potenció nuestra capacidad para superar desafíos y alcanzar resultados
-            sobresalientes de manera consistente.</p>
+            sobresalientes.</p>
+            
         </div>
         </div>
       </div>
