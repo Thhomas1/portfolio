@@ -173,7 +173,7 @@ export default function Home() {
                 Herramientas: 
                 <span className="text-orange-600 font-semibold">
                   {" "}
-                  ReactJs, MaterialUI, BarbaJs, CustomCSS{" "}
+                  ReactJs, MaterialUI, BarbaJs, Firebase y Postman{" "}
                 </span>
               </p>
               <a
