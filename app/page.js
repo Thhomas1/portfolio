@@ -173,7 +173,7 @@ export default function Home() {
                 Herramientas: 
                 <span className="text-orange-600 font-semibold">
                   {" "}
-                  ReactJs, MaterialUI, BarbaJs, Firebase y Postman{" "}
+                  ReactJs, MaterialUI, Firebase && Postman{" "}
                 </span>
               </p>
               <a
@@ -195,13 +195,13 @@ export default function Home() {
                 Apple Page
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Sitio web estilo apple page front-page.
+                Sitio web estilo apple page front-page con librerias de Javascript.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
                 <span className="text-teal-600 font-semibold">
                   {" "}
-                  Javascript, GSAP, BarbaJs, CustomCSS{" "}
+                  Javascript, GSAP, BarbaJs && CustomCSS{" "}
                 </span>
               </p>
               <a
@@ -226,13 +226,13 @@ export default function Home() {
                 
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Front-page para un cliente potencial.
+                Front-page para un cliente potencial que use como muestra.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
                 <span className="text-red-500 font-semibold">
                   {" "}
-                  NextJs, Typescript, TailwindCSS{" "}
+                  NextJs, Typescript, TailwindCSS && Docker{" "}
                 </span>
               </p>
               <a
@@ -261,7 +261,7 @@ export default function Home() {
                 Herramientas:
                 <span className="text-cyan-500 font-semibold">
                   {" "}
-                  NextJs, Javascript, TailwindCSS, CustomCSS{" "}
+                  NextJs, Javascript, TailwindCSS && CustomCSS{" "}
                 </span>
               </p>
               <a
