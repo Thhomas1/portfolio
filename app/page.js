@@ -296,6 +296,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">Angular</p>
               <p className="text-gray-800 py-1 dark:text-white">NodeJS</p>
               <p className="text-gray-800 py-1 dark:text-white">MySQL</p>
+              <p className="text-gray-800 py-1 dark:text-white">PostgreSQL</p>
               <p className="text-gray-800 py-1 dark:text-white">-</p>
               <p className="text-gray-800 py-1 dark:text-white">Javascript</p>
               <p className="text-gray-800 py-1 dark:text-white">Typescript</p>
@@ -318,6 +319,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Sass</p>
               <p className="text-gray-800 py-1">MongoDB</p>
               <p className="text-gray-800 py-1">Postman</p>
+              <p className="text-gray-800 py-1">Prisma</p>
             </div>
           </div>
           
@@ -332,5 +334,4 @@ export default function Home() {
     </div>
   );    
 }
-// Finished
 // Thomas Romero
