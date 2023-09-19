@@ -226,7 +226,7 @@ export default function Home() {
                 
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Front-page para un cliente potencial que use como muestra.
+                Front-page para un cliente potencial utilizando los componentes de NextJs.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
@@ -255,7 +255,7 @@ export default function Home() {
                 Portfolio
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Sitio web para mostrar mis trabajos y progresos en el rubro.
+                Sitio web para mostrar mis trabajos y progresos en el desarrollo.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
