@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-sky-50 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
-        <section className="min-h-screen">
+        <section className="min-h-screen ">
           <nav className="py-5 mb-12  flex justify-between">
             <ul className="text-cyan-900 flex items-center  md:text-xl dark:text-red-400">
               <li className=" flex cursor-pointer">
