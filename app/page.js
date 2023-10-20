@@ -282,7 +282,7 @@ export default function Home() {
 
             {/* Seguir aca */}
           </div>
-           <div className="lg:flex gap-10">
+           <div className="lg:flex gap-10 justify-around">
             <div className="bg-teal-50  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-red-400 dark:text-white">
               <Image src={couch} width={150} height={150} />
               <h3 className="text-lg font-semibold pt-8 pb-2">Herramientas</h3>
@@ -297,6 +297,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">NodeJS</p>
               <p className="text-gray-800 py-1 dark:text-white">MySQL</p>
               <p className="text-gray-800 py-1 dark:text-white">PostgreSQL</p>
+              <p className="text-gray-800 py-1 dark:text-white">Firebase</p>
               <p className="text-gray-800 py-1 dark:text-white">-</p>
               <p className="text-gray-800 py-1 dark:text-white">Javascript</p>
               <p className="text-gray-800 py-1 dark:text-white">Typescript</p>
@@ -311,15 +312,17 @@ export default function Home() {
                 ahorrar tiempo de desarrollo
         
               </p>
-              <h4 className="py-4 text-teal-600 font-semibold">Herramientas que uso :)</h4>
+              <h4 className="py-4 text-teal-600 font-semibold">Complementos que uso :)</h4>
               <p className="text-gray-800 py-1">NextJs</p>
               <p className="text-gray-800 py-1">TailwindCSS</p>
-              <p className="text-gray-800 py-1">GSAP</p>
-              <p className="text-gray-800 py-1">BarbaJs</p>
               <p className="text-gray-800 py-1">Sass</p>
+              <p className="text-gray-800 py-1">Material UI</p>             
               <p className="text-gray-800 py-1">MongoDB</p>
               <p className="text-gray-800 py-1">Postman</p>
               <p className="text-gray-800 py-1">Prisma</p>
+              <p className="text-gray-800 py-1">GSAP</p>
+              <p className="text-gray-800 py-1">BarbaJs</p>
+              <p className="text-gray-800 py-1">OpenRefine</p>
             </div>
           </div>
           
