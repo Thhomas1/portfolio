@@ -2,18 +2,18 @@
 
 import Head from "next/head";
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub, AiOutlineBook, AiOutlineLink } from "react-icons/ai";
-import {FaCloudMoonRain, FaReact } from "react-icons/fa";
+import {FaCloudMoonRain} from "react-icons/fa";
 import UseAnimations from "react-useanimations";
 import arrowDown from 'react-useanimations/lib/arrowDown';
 import Image from "next/image";
 import deved from "../public/prog.png";
 import design from "../public/complements.gif";
 import code from "../public/codecard.gif";
-import wave from "../public/olita.gif";
+import wave from "../public/noconnect.gif";
 import couch from "../public/couch.gif";
 import web1 from "../public/wolfbuilding.png";
 import web2 from "../public/iphonepage.png";
-import web3 from "../public/portafolio.png";
+import web3 from "../public/adminpanel.png";
 import web4 from "../public/pizzeli.png";
 import { useState } from "react";
 import Link from "next/link";
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-2'>
           
-          <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'>Desarrollador Junior</h2>
+          <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'>Software Developer</h2>
           <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>Startnet</h3>
           <span className='text-sm text-cyan-700 dark:text-red-200'> Agosto 2022 - Actualidad</span>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
@@ -131,8 +131,8 @@ export default function Home() {
               y me permite adquirir valiosos conocimientos prácticos.</p>
         </div>
         </div>
-        <div className="flex items-start w-150 h-100">
-            <Image src={wave} objectFit="cover" width={150} />
+        <div className="flex v items-center flex-col w-150 h-100">
+            <Image src={wave} objectFit="cover" width={200} />
           </div>
         <div className='relative my-10 grid grid-cols-[30px_1fr] gap-4 '>
           <div className='flex flex-col items-center gap-2'>
@@ -141,11 +141,13 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-2'>
           
-          <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'> Desarrollador Freelance</h2>
+          <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'> Front-End Developer</h2>
           <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>MyDevClub</h3>
-          <span className='text-sm text-cyan-700 dark:text-red-200'> Marzo 2022 - Agosto 2022</span>
+          <span className='text-sm text-cyan-700 dark:text-red-200'> Noviembre 2021 - Agosto 2022</span>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
-            Con un grupo de amigos desarrollamos un sitio web para una constructora de Quilmes.
+           
+            Con un grupo de amigos desarrollamos sitios webs responsivos utilizando ReactJS junto
+            con herramientas para mejorar la eficiencia de los sitios.
             La combinación de habilidades y dedicación en nuestro
             equipo potenció nuestra capacidad para superar desafíos y alcanzar resultados
             sobresalientes.</p>
@@ -252,21 +254,21 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <h3 className="text-2xl py-1 text-teal-950 dark:text-white font-bold">
-                Portfolio
+                AdminPanel
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Sitio web para mostrar mis trabajos y progresos en el desarrollo.
+                Dashboard utilizando Recharts para un cliente especializado en Google Analytics.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
                 Herramientas:
                 <span className="text-cyan-500 font-semibold">
                   {" "}
-                  NextJs, Javascript, TailwindCSS && CustomCSS{" "}
+                  React, Sass, Material UI && Recharts{" "}
                 </span>
               </p>
               <a
                 className=" text-xl py-2 text-cyan-600 lg:flex justify-center"
-                href="https://portfolio-vfht.vercel.app/"
+                href="https://adminpanel-khaki.vercel.app/"
               >
                 <AiOutlineLink />
               </a>
