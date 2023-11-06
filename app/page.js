@@ -120,7 +120,7 @@ export default function Home() {
           <div className='flex flex-col gap-2'>
           
           <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'>Software Developer</h2>
-          <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>Startnet</h3>
+          <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>Startnet / Geekforce</h3>
           <span className='text-sm text-cyan-700 dark:text-red-200'> Agosto 2022 - Actualidad</span>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
               La empresa que me brindó la oportunidad de ingresar al mundo laboral.
