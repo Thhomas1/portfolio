@@ -38,3 +38,26 @@ a {
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+/*
+.custom-shape-divider-bottom-1699486054 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1699486054 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 225px;
+}
+
+.custom-shape-divider-bottom-1699486054 .shape-fill {
+  fill: #172641;
+}
+*/
