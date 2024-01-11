@@ -60,7 +60,7 @@ export default function Home() {
               Software Developer
             </h3>
             <p className="text-md pt-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
-              <span className="text-cyan-600 font-bold dark:text-red-400	">+3</span> años de experiencia en el mundo del desarrollo
+              <span className="text-cyan-600 font-bold dark:text-red-400	">+3</span> años de experiencia en el mundo IT
             </p>
           </div>
           <div className=" text-4xl flex justify-center gap-12 text-gray-600 dark:text-white ">
