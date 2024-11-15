@@ -310,10 +310,9 @@ export default function Home() {
               <h3 className="text-lg font-semibold pt-8 pb-2 mt-5">
                 Complementos
               </h3>
-              <p className="py-2">
-                Frameworks y otras herramientas que me permiten 
-                ahorrar tiempo de desarrollo
-        
+              <p className="py-2">a
+                Frameworks y otras herramientas que me permiten aaaaaaaaaa
+                ahorrar tiempo de desarrollo Pito concha de tu madre
               </p>
               <h4 className="py-4 text-teal-600 font-semibold">Complementos que uso :)</h4>
               <p className="text-gray-800 py-1">NextJs</p>
