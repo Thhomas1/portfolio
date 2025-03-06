@@ -44,7 +44,7 @@ export default function Home() {
               </li>
               <li>
                 <Link
-                  href="/ThomasRomeroCV.pdf"
+                  href="/ThomasRomeroResumero.pdf"
                   className=" flex cursor-pointer text-3xl py-2 ml-8"
                 >
                 <AiOutlineBook/>
@@ -60,7 +60,7 @@ export default function Home() {
               Software Developer
             </h3>
             <p className="text-md pt-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
-              <span className="text-cyan-600 font-bold dark:text-red-400	">+3</span> años de experiencia en el mundo IT
+              <span className="text-cyan-600 font-bold dark:text-red-400	">+3</span> years experience in the IT world
             </p>
           </div>
           <div className=" text-4xl flex justify-center gap-12 text-gray-600 dark:text-white ">
@@ -88,18 +88,18 @@ export default function Home() {
           <div className=" lg:basis-1/2">
             <h3 className="text-4xl py-1 text-cyan-950 font-semibold dark:text-white">About me</h3>
             <p className="justify-self-center	 text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Me considero una persona altamente organizada y proactiva,
-              con una habilidad para colaborar efectivamente en entornos diversos.
-              Disfruto especialmente trabajando en equipos multidisciplinarios,
-              donde puedo articular ideas técnicas de manera concisa y buscando constantemente oportunidades 
-              para seguir aprendiendo.
+              I consider myself a highly organized and proactive person,
+              with an ability to collaborate effectively in diverse environments.
+              I especially enjoy working in multidisciplinary teams,
+              where I can articulate technical ideas in a concise manner and constantly look for opportunities to continue learning. 
+              to keep learning.
               </p>
               <p className="justify-self-center	 text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Mi experiencia en
+              My experience in
               <span className="text-amber-400 font-bold"> JavaScript </span> y
               <span className="text-cyan-300 font-bold	"> TypeScript </span>
-              me ha permitido desarrollar soluciones robustas y estar en
-              constante aprendizaje en sus actualizaciones.
+              has allowed me to develop robust solutions and to be in constant learning
+              constantly learning about its updates.
               
             </p>
           </div>
@@ -112,28 +112,49 @@ export default function Home() {
           </div>
 
       <div> 
-        <h3 className="text-4xl text-cyan-950 font-semibold py-1 dark:text-white">Experiencia</h3>
-        <div className='relative my-10 grid grid-cols-[30px_1fr] gap-4 '>
-          <div className='flex flex-col items-center gap-2 '>
-            <div className='rounded-full bg-white-10 p-1' />
-            <div className='border-cyan-800 h-full w-0 border border-dashed dark:border-sky-200	' />
+        <h3 className="text-4xl text-cyan-950 font-semibold py-1 dark:text-white">Work Experience</h3>
+          <div className='relative my-10 grid grid-cols-[30px_1fr] gap-4 '>
+            <div className='flex flex-col items-center gap-2 '>
+              <div className='rounded-full bg-white-10 p-1' />
+              <div className='border-cyan-800 h-full w-0 border border-dashed dark:border-sky-200	' />
+            </div>
+            <div className='flex flex-col gap-2'>
+            
+            <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'>Software Developer</h2>
+            <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>The Intern Group</h3>
+            <span className='text-sm text-cyan-700 dark:text-red-200'> March 2024 - Present</span>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
+            My expertise lies in architecting robust and scalable solutions,
+            leveraging Nest for the backend and React with Typescript for the frontend.
+            I go beyond mere technical implementation, actively participating in feature definition,
+            collaborating closely with multidisciplinary teams to ensure the final product exceeds user expectations.
+            My commitment extends beyond deployment. I meticulously monitor application performance in production,
+            proactively identifying and resolving incidents to guarantee system stability and optimal functionality. 
+            Furthermore, I design and implement complex data models and database schemas, integrating NestJs with PostgreSQL to ensure data integrity and efficiency.
+            My objective is to deliver solutions that not only function flawlessly but also drive tangible business success
+          </p>
           </div>
-          <div className='flex flex-col gap-2'>
-          
-          <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'>Software Developer</h2>
-          <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>Startnet / Geekforce</h3>
-          <span className='text-sm text-cyan-700 dark:text-red-200'> Agosto 2022 - Actualidad</span>
-          <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
-              La empresa que me brindó la oportunidad de ingresar al mundo laboral.
-              En este primer paso crucial de mi carrera, tengo el privilegio de trabajar
-              junto a un equipo excepcional y aprender de ellos constantemente
-              para aplicar mis habilidades técnicas en situaciones reales. 
-              Esta experiencia marcó el inicio de mi trayectoria 
-              y me permite adquirir valiosos conocimientos prácticos.</p>
-        </div>
-        </div>
-        <div className="flex v items-center flex-col w-150 h-100">
-            <Image src={wave} objectFit="cover" width={200} />
+          </div>
+          <div className='relative my-10 grid grid-cols-[30px_1fr] gap-4 '>
+            <div className='flex flex-col items-center gap-2 '>
+              <div className='rounded-full bg-white-10 p-1' />
+              <div className='border-cyan-800 h-full w-0 border border-dashed dark:border-sky-200	' />
+            </div>
+            <div className='flex flex-col gap-2'>
+            
+            <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'>Software Developer</h2>
+            <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>Startnet / Geekforce</h3>
+            <span className='text-sm text-cyan-700 dark:text-red-200'> August 2022 - March 2024</span>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
+                The company that gave me the opportunity to enter the working world.
+                In this first crucial step of my career, I have the privilege of working with an exceptional
+                team and constantly learning from them.
+                with an exceptional team and to learn from them constantly to apply my technical
+                to apply my technical skills in real situations. 
+                This experience marked the beginning of my career 
+                and allows me to acquire valuable practical knowledge.
+         </p>
+          </div>
           </div>
         <div className='relative my-10 grid grid-cols-[30px_1fr] gap-4 '>
           <div className='flex flex-col items-center gap-2'>
@@ -144,17 +165,19 @@ export default function Home() {
           
           <h2 className='text-xl font-bold text-cyan-900 dark:text-red-400'> Front-End Developer</h2>
           <h3 className='text-md font-bold text-cyan-800 dark:text-red-300'>MyDevClub</h3>
-          <span className='text-sm text-cyan-700 dark:text-red-200'> Noviembre 2021 - Agosto 2022</span>
+          <span className='text-sm text-cyan-700 dark:text-red-200'> November 2021 - August 2022</span>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-[80ch]">
-           
-            Con un grupo de amigos desarrollamos sitios webs responsivos utilizando ReactJS junto
-            con herramientas para mejorar la eficiencia de los sitios.
-            La combinación de habilidades y dedicación en nuestro
-            equipo potenció nuestra capacidad para superar desafíos y alcanzar resultados
-            sobresalientes.</p>
-            
+          With a group of friends we developed responsive websites using ReactJS together with tools to
+            with tools to improve the efficiency of the sites.
+            The combination of skills and dedication in our team
+            team boosted our ability to overcome challenges and achieve outstanding results.
+            outstanding results.
+        </p>
         </div>
         </div>
+        <div className="flex v items-center flex-col w-150 h-100">
+            <Image src={wave} objectFit="cover" width={200} />
+          </div>
       </div>
 
             {/* Poner aca algun diseño picante y agarrar el tailwind  */}
@@ -162,7 +185,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="pt-32 text-4xl py-1 text-cyan-900 font-semibold dark:text-white">Proyectos</h3>
+            <h3 className="pt-32 text-4xl py-1 text-cyan-900 font-semibold dark:text-white">Proyects</h3>
           </div>
           <div className=" flex flex-col gap-10 mt-20 lg:flex-row lg:flex-wrap lg:m-10">
             <div className="basis-1/3 flex-1 mar">
@@ -170,10 +193,10 @@ export default function Home() {
                 Wolf Building
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Junto a un increible equipo creamos un sitio web para un cliente potencial de la construccion.
+              With an amazing team we created a website for a potential construction client.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas: 
+                Tools: 
                 <span className="text-orange-600 font-semibold">
                   {" "}
                   ReactJs, MaterialUI, Firebase && Postman{" "}
@@ -198,10 +221,10 @@ export default function Home() {
                 Apple Page
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Sitio web estilo apple page front-page con librerias de Javascript.
+              Apple page front-page style website with Javascript libraries.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas:
+              Tools:
                 <span className="text-teal-600 font-semibold">
                   {" "}
                   Javascript, GSAP, BarbaJs && CustomCSS{" "}
@@ -229,10 +252,10 @@ export default function Home() {
                 
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Front-page para un cliente potencial utilizando los componentes de NextJs.
+              Front-page for a potential client using NextJs components.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas:
+                Tools:
                 <span className="text-red-500 font-semibold">
                   {" "}
                   NextJs, Typescript, TailwindCSS && Docker{" "}
@@ -258,10 +281,10 @@ export default function Home() {
                 AdminPanel
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Dashboard utilizando Recharts para un cliente especializado en Google Analytics.
+              Dashboard using Recharts for a client specialized in Google Analytics.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-                Herramientas:
+                Tools:
                 <span className="text-cyan-500 font-semibold">
                   {" "}
                   React, Sass, Material UI && Recharts{" "}
@@ -288,12 +311,12 @@ export default function Home() {
            <div className="lg:flex gap-10 justify-around">
             <div className="bg-teal-50  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-red-400 dark:text-white">
               <Image src={couch} width={150} height={150} />
-              <h3 className="text-lg font-semibold pt-8 pb-2">Herramientas</h3>
+              <h3 className="text-lg font-semibold pt-8 pb-2">Tools</h3>
               <p className="py-2">
-                Herramientas que me permiten desarrollar y superar desafíos con
-                creatividad y eficiencia
+                 Tools that allow me to develop and overcome challenges with
+                creativity and efficiency
               </p>
-              <h4 className="py-4 text-teal-600 font-semibold">Herramientas que uso :)</h4>
+              <h4 className="py-4 text-teal-600 font-semibold">:)</h4>
 
               <p className="text-gray-800 py-1 dark:text-white">React</p>
               <p className="text-gray-800 py-1 dark:text-white">Angular</p>
@@ -304,19 +327,21 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">-</p>
               <p className="text-gray-800 py-1 dark:text-white">Javascript</p>
               <p className="text-gray-800 py-1 dark:text-white">Typescript</p>
+              <p className="text-gray-800 py-1 dark:text-white">Java</p>
             </div>
             <div className=" bg-teal-50  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white-300">
               <Image src={design} width={150} height={150} />
               <h3 className="text-lg font-semibold pt-8 pb-2 mt-5">
-                Complementos
+              Complements
               </h3>
               <p className="py-2">
-                Frameworks y otras herramientas que me permiten 
-                ahorrar tiempo de desarrollo
-        
+              Frameworks and other tools that allow me to 
+                save development time
+      
               </p>
-              <h4 className="py-4 text-teal-600 font-semibold">Complementos que uso :)</h4>
+              <h4 className="py-4 text-teal-600 font-semibold"> :)</h4>
               <p className="text-gray-800 py-1">NextJs</p>
+              <p className="text-gray-800 py-1">Nest</p>
               <p className="text-gray-800 py-1">TailwindCSS</p>
               <p className="text-gray-800 py-1">Sass</p>
               <p className="text-gray-800 py-1">Material UI</p>             
@@ -325,7 +350,8 @@ export default function Home() {
               <p className="text-gray-800 py-1">Prisma</p>
               <p className="text-gray-800 py-1">GSAP</p>
               <p className="text-gray-800 py-1">BarbaJs</p>
-              <p className="text-gray-800 py-1">OpenRefine</p>
+              <p className="text-gray-800 py-1">Dbeaver</p>
+
             </div>
           </div>
           
